@@ -1,0 +1,3 @@
+git status - shows  the current status of your code
+git init - initializes a new repository
+git add - adds all folders and files to the git repo
