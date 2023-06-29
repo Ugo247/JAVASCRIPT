@@ -31,19 +31,19 @@ array = ["a", "b", "c", "d", "e", "f",];
 let newArray = [...array, "g", "h", "i",];
 console.log(newArray);
 // reverse
-console.log(array.reserve());
+console.log(array.reverse());
 // find
-let students = [
-    { id: 12, name: "jane", sex: "f" },
-    { id: 13, name: "Rabo", sex: "m" },
-    { id: 34, name: "Gertrude", sex: "f" },
-    { id: 38, name: "Nonye", sex: "m" }
+let studentsArray = [
+    { id: 12, name: "jane", gender: "f" },
+    { id: 13, name: "Rabo", gender: "m" },
+    { id: 34, name: "Gertrude", gender: "f" },
+    { id: 38, name: "Nonye", gender: "m" }
 ];
 
 let student = studentsArray.find(x => x.id === 34);
 console.log(student);
 // filter
-let femaleStudents = studentArray.filter(x => x.gender === "f")
+let femaleStudents = studentsArray.filter(x => x.gender === "f")
 console.log(femaleStudents);
 // map function => assignment
 
@@ -52,7 +52,7 @@ function doSomething(parameter) {
     // write the code you want the function to run
 };
 
-const doSomething = (parameter1, parameter2) => {
+const doSomethingElse = (parameter1, parameter2) => {
     // write the code you want the function to run
 };
 
@@ -64,8 +64,8 @@ addNumbers(3, 5, 8);
 addNumbers(2, 15, 10);
 
 function pythagoras(opp, adj) {
-    // 1st Meth]od
-    console.log( opp**2 + adj**2 **0.5)
+    // 1st Method
+    console.log( (opp**2 + adj**2) **0.5)
     // 2nd Method
     // console.log( Math.sqrt(opp**2 + adj**2) );
 };
